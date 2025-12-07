@@ -44,6 +44,7 @@ require("plugins.gruvbox")
 require("plugins.colorizer")
 require("plugins.lspconfig")
 require("plugins.catppuccin")
+require("plugins.blink")
 
 -- print("Neovim Configurations")
 

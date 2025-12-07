@@ -4,7 +4,8 @@ local cmp = require("cmp")
 local lspconfig = vim.lsp.config
 local luasnip = require("luasnip")
 
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
+local capabilities = require('blink.cmp').get_lsp_capabilities(capabilities)
+
 
 -- Load friendly snippets
 require("luasnip.loaders.from_vscode").lazy_load()
